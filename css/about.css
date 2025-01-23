@@ -1,0 +1,252 @@
+@charset "UTF-8";
+.aboutPage .mainBox .contentBox {
+  border: none;
+}
+.aboutPage .blockTitle {
+  color: #1F1F1F;
+  font-size: var(--clamp24);
+  font-weight: 700;
+  font-family: "Noto Serif TC", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif;
+  margin-bottom: 70px;
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .aboutPage .blockTitle {
+    margin-bottom: 40px;
+  }
+}
+.aboutPage [class^=block] .contentBox {
+  padding: 70px 0;
+}
+@media screen and (max-width: 1000px) {
+  .aboutPage [class^=block] .contentBox {
+    padding: 50px 0;
+  }
+}
+.aboutPage .block1 {
+  text-align: center;
+}
+.aboutPage .block1 .contentBox {
+  border-top: #AAAAAA 1px dashed;
+  border-bottom: #AAAAAA 1px dashed;
+  color: #333333;
+  font-weight: 600;
+}
+.aboutPage .block2 .listBox {
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px 20px;
+}
+@media screen and (max-width: 767px) {
+  .aboutPage .block2 .listBox {
+    gap: 40px 20px;
+    max-width: 300px;
+  }
+}
+.aboutPage .block2 .listBox .item {
+  width: calc((100% - 20px * (4 - 1)) / 4);
+}
+@media screen and (max-width: 767px) {
+  .aboutPage .block2 .listBox .item {
+    width: calc((100% - 20px * (2 - 1)) / 2);
+  }
+}
+.aboutPage .block2 .listBox .item .pic {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutPage .block2 .listBox .item .pic img {
+  width: auto !important;
+}
+.aboutPage .block2 .listBox .item .title {
+  font-size: var(--clamp18);
+  font-family: "Noto Serif TC", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+.aboutPage .block3 .contentBox {
+  padding: calc(var(--contentPadding) + 20px) var(--contentPadding);
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 90%);
+}
+.aboutPage .block3 .blockTitle {
+  margin-bottom: 20px;
+}
+.aboutPage .block3 .slogan {
+  font-size: var(--clamp18);
+  color: #333333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.aboutPage .block3 .outer {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+}
+@media screen and (max-width: 767px) {
+  .aboutPage .block3 .outer {
+    flex-direction: column;
+    gap: 60px 40px;
+  }
+}
+.aboutPage .block3 .listBox {
+  width: calc((100% - 40px * (2 - 1)) / 2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 40px;
+}
+@media screen and (max-width: 767px) {
+  .aboutPage .block3 .listBox {
+    width: 100%;
+  }
+  .aboutPage .block3 .listBox:last-child .item:last-child .picBox::before {
+    display: none;
+  }
+}
+.aboutPage .block3 .listBox .item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .aboutPage .block3 .listBox .item {
+    width: 100%;
+  }
+  .aboutPage .block3 .listBox .item:last-child .picBox::before {
+    display: none;
+  }
+}
+.aboutPage .block3 .listBox .item .picBox {
+  position: relative;
+}
+.aboutPage .block3 .listBox .item .picBox::before {
+  content: "";
+  position: absolute;
+  height: 13px;
+  width: 28px;
+  -webkit-mask: url("../images/icon/icon_arrow_swiper_index.svg") no-repeat;
+          mask: url("../images/icon/icon_arrow_swiper_index.svg") no-repeat;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  background: #DDDDDD;
+  top: 120%;
+  left: 50%;
+  transform: translateX(-50%) rotate(-90deg);
+}
+.aboutPage .block3 .listBox .item .pic {
+  width: 120px;
+  text-align: center;
+}
+.aboutPage .block3 .listBox .item .pic img {
+  width: auto !important;
+}
+.aboutPage .block3 .listBox .item .title {
+  font-size: var(--clamp21);
+  font-family: "Noto Serif TC", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.aboutPage .block3 .listBox .item .title span {
+  color: #F47121;
+  display: inline-block;
+  margin-right: 10px;
+}
+.aboutPage .block3 .listBox .item .description {
+  font-size: var(--clamp18);
+  color: #6d6d6d;
+  line-height: 1.4;
+}
+.aboutPage .block4 .contentBox {
+  padding: calc(var(--contentPadding) + 20px) var(--contentPadding);
+  background: #ECECEC;
+}
+.aboutPage .block4 .listBox {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  text-align: center;
+}
+.aboutPage .block4 .listBox .item {
+  padding: 50px 15px;
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+  width: calc((100% - 9px * (6 - 1)) / 6);
+}
+@media screen and (max-width: 1000px) {
+  .aboutPage .block4 .listBox .item {
+    width: calc((100% - 9px * (2 - 1)) / 2);
+  }
+}
+.aboutPage .block4 .listBox .item:nth-child(even) {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+}
+.aboutPage .block4 .listBox .item .pic {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.aboutPage .block4 .listBox .item .pic img {
+  width: auto !important;
+}
+.aboutPage .block4 .listBox .item .title,
+.aboutPage .block4 .listBox .item .description {
+  max-width: 200px;
+  margin: 0 auto;
+}
+.aboutPage .block4 .listBox .item .title {
+  font-size: var(--clamp18);
+  font-family: "Noto Serif TC", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.aboutPage .block4 .listBox .item .description {
+  color: #787878;
+}
+.aboutPage .block5 .listBox {
+  max-width: 1340px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutPage .block5 .listBox .item {
+  padding: 50px 20px;
+  border-left: #AAAAAA 1px dashed;
+  width: calc((100% - 0px * (4 - 1)) / 4);
+}
+@media screen and (min-width: 768px) {
+  .aboutPage .block5 .listBox .item:nth-child(1), .aboutPage .block5 .listBox .item:nth-child(5) {
+    border-left: none;
+  }
+  .aboutPage .block5 .listBox .item:nth-child(1), .aboutPage .block5 .listBox .item:nth-child(2), .aboutPage .block5 .listBox .item:nth-child(3), .aboutPage .block5 .listBox .item:nth-child(4) {
+    border-bottom: #AAAAAA 1px dashed;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutPage .block5 .listBox .item {
+    padding: 20px;
+    width: calc((100% - 0px * (2 - 1)) / 2);
+    border-bottom: #AAAAAA 1px dashed;
+  }
+  .aboutPage .block5 .listBox .item:nth-child(odd) {
+    border-left: none;
+  }
+  .aboutPage .block5 .listBox .item:nth-child(7), .aboutPage .block5 .listBox .item:nth-child(8) {
+    border-bottom: none;
+  }
+}
+.aboutPage .block5 .listBox .item .pic {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.aboutPage .block5 .listBox .item .pic img {
+  width: auto !important;
+}
+.aboutPage .block5 .listBox .item .title {
+  font-size: var(--clamp18);
+  font-family: "Noto Serif TC", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}/*# sourceMappingURL=about.css.map */

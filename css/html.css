@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.html .blockTitle {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .html .blockTitle {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .html .blockTitle {
+    font-size: 1.875rem;
+  }
+}
+.html .editor {
+  max-width: 1150px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 1.3125rem;
+  line-height: 1.45;
+}
+@media screen and (max-width: 1000px) {
+  .html .editor {
+    font-size: 1.125rem;
+  }
+}
+.html .editor ul.style li {
+  position: relative;
+  padding: 5px 0 5px 20px;
+}
+.html .editor ul.style li::before {
+  content: "◆";
+  color: #F47121;
+  position: absolute;
+  left: 0;
+}
+
+.editor span.title {
+  color: #F47121;
+  font-weight: 700;
+}/*# sourceMappingURL=html.css.map */
