@@ -2270,7 +2270,6 @@ button:focus {
 .footerBox .copyright a {
   opacity: 0.8;
   display: inline-block;
-  margin-left: 10px;
 }
 .footerBox .copyright a:last-child {
   color: #FFAE00;

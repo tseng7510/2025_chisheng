@@ -188,4 +188,7 @@
 .newsDetail .contentBox .content {
   max-width: 1090px;
   margin: 0 auto;
+}
+.newsDetail .contentBox .content .editor {
+  text-align: center;
 }/*# sourceMappingURL=news.css.map */

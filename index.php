@@ -167,6 +167,10 @@
         responsive: [{
           breakpoint: 1600,
           settings: {
+            slidesToShow: 1.4,
+          },
+          breakpoint: 1300,
+          settings: {
             slidesToShow: 1,
           }
         }, ]
