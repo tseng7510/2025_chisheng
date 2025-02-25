@@ -70,24 +70,24 @@ window.addEventListener('resize', scrollCheck);
 // cookie
 
 //  GOTOP
-// (function () {
-//   let goTopBtn = document.querySelector('.goTop');
+(function () {
+  let goTopBtn = document.querySelector('.goTop');
 
-//   window.addEventListener('scroll', function () {
-//     let windowScrollTop = document.documentElement.scrollTop;
-//     if (windowScrollTop >= 200) {
-//       goTopBtn.style.cssText = 'opacity:1';
-//     } else {
-//       goTopBtn.style.cssText = 'opacity:0';
-//     }
-//   });
-//   goTopBtn.addEventListener('click', function () {
-//     window.scrollTo({
-//       top: 0,
-//       behavior: 'smooth',
-//     });
-//   });
-// })();
+  // window.addEventListener('scroll', function () {
+  //   let windowScrollTop = document.documentElement.scrollTop;
+  //   if (windowScrollTop >= 200) {
+  //     goTopBtn.style.cssText = 'opacity:1';
+  //   } else {
+  //     goTopBtn.style.cssText = 'opacity:0';
+  //   }
+  // });
+  goTopBtn.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  });
+})();
 
 // head搜尋
 (function () {
