@@ -5,10 +5,10 @@
   border: none !important;
 }
 .newsList .siteMain .contentBox::before {
-  content: "";
-  background: #ECECEC;
+  content: '';
+  background: #ececec;
   position: absolute;
-  background: url("../images/index/abg.png") top right no-repeat;
+  background: url('../images/index/abg.png') top right no-repeat;
   background-size: contain;
   display: block;
   z-index: 1;
@@ -25,11 +25,11 @@
 }
 .newsList .siteMain .contentBox .listBox .item {
   width: 100%;
-  border: #AAAAAA 1px dashed;
+  border: #aaaaaa 1px dashed;
   border-bottom: none;
 }
 .newsList .siteMain .contentBox .listBox .item:last-child {
-  border-bottom: #AAAAAA 1px dashed;
+  border-bottom: #aaaaaa 1px dashed;
 }
 .newsList .siteMain .contentBox .listBox .item:hover .pic {
   transform: translate(-5px, -5px);
@@ -39,7 +39,7 @@
   transform: scale(1.5);
 }
 .newsList .siteMain .contentBox .listBox .item:hover .title {
-  color: #F47121;
+  color: #f47121;
 }
 .newsList .siteMain .contentBox .listBox a {
   display: flex;
@@ -68,14 +68,14 @@
 }
 .newsList .siteMain .contentBox .listBox .pic img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: all 25s ease;
 }
 .newsList .siteMain .contentBox .listBox .title {
   padding-right: 50px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-size: var(--clamp24);
-  font-family: "Noto Serif TC", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif;
+  font-family: 'Noto Serif TC', 'Noto Sans TC', Arial, '微軟正黑體', 'Microsoft JhengHei', '蘋果儷中黑', 'Apple LiGothic Medium', sans-serif;
   line-height: 1.4;
   margin-bottom: 20px;
   overflow: hidden;
@@ -110,7 +110,7 @@
   font-weight: 600;
   padding-bottom: 10px;
   margin: 0 0 0 auto;
-  font-family: "Lato", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif;
+  font-family: 'Lato', 'Noto Sans TC', Arial, '微軟正黑體', 'Microsoft JhengHei', '蘋果儷中黑', 'Apple LiGothic Medium', sans-serif;
   position: relative;
   flex-shrink: 0;
 }
@@ -120,44 +120,44 @@
   }
 }
 .newsList .siteMain .contentBox .listBox .timeBox::before {
-  content: "";
+  content: '';
   width: 2px;
   height: 2px;
-  background: #2C3134;
+  background: #2c3134;
   border-radius: 50%;
-  box-shadow: 12px 0 0 #2C3134, 24px 0 0 #2C3134, 36px 0 0 #2C3134, 49px 0 0 #2C3134, 62px 0 0 #2C3134, 75px 0 0 #2C3134, 88px 0 0 #2C3134, 100px 0 0 #2C3134, 113px 0 0 #2C3134;
+  box-shadow: 12px 0 0 #2c3134, 24px 0 0 #2c3134, 36px 0 0 #2c3134, 49px 0 0 #2c3134, 62px 0 0 #2c3134, 75px 0 0 #2c3134, 88px 0 0 #2c3134, 100px 0 0 #2c3134, 113px 0 0 #2c3134;
   position: absolute;
   bottom: 0;
   left: 11px;
   display: block;
 }
 .newsList .siteMain .contentBox .listBox .timeBox .y {
-  color: #2D3135;
+  color: #2d3135;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
 .newsList .siteMain .contentBox .listBox .timeBox .y::before {
-  content: "";
+  content: '';
   width: 2px;
   height: 2px;
-  background: #2C3134;
+  background: #2c3134;
   border-radius: 50%;
-  box-shadow: 12px 0 0 #2C3134, 24px 0 0 #2C3134;
+  box-shadow: 12px 0 0 #2c3134, 24px 0 0 #2c3134;
 }
 .newsList .siteMain .contentBox .listBox .timeBox .y::after {
-  content: "";
+  content: '';
   width: 2px;
   height: 2px;
-  background: #2C3134;
+  background: #2c3134;
   border-radius: 50%;
-  box-shadow: -12px 0 0 #2C3134, -24px 0 0 #2C3134;
+  box-shadow: -12px 0 0 #2c3134, -24px 0 0 #2c3134;
 }
 .newsList .siteMain .contentBox .listBox .timeBox .d {
   font-size: var(--clamp42);
   line-height: 1.2;
-  color: #2D3135;
+  color: #2d3135;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,10 +167,10 @@
   position: relative;
 }
 .newsDetail::before {
-  content: "";
-  background: #ECECEC;
+  content: '';
+  background: #ececec;
   position: fixed;
-  background: url("../images/index/abg.png") top right no-repeat;
+  background: url('../images/index/abg.png') top right no-repeat;
   background-size: contain;
   display: block;
   z-index: 1;
@@ -191,4 +191,8 @@
 }
 .newsDetail .contentBox .content .editor {
   text-align: center;
-}/*# sourceMappingURL=news.css.map */
+}
+.newsDetail .contentBox .content .editor ul li {
+  width: fit-content;
+  margin: 0 auto;
+}
