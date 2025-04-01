@@ -95,7 +95,9 @@
                   <? for ($i = 0; $i < 4; $i++) { ?>
                     <div class="item">
                       <div class="pic"><img src="images/index/n.jpg" alt=""></div>
-                      <div class="more"><span>READ</span> MORE</div>
+                      <a href="news_detail.php">
+                        <div class="more"><span>READ</span> MORE</div>
+                      </a>
                     </div>
                   <? } ?>
 
