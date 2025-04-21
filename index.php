@@ -22,12 +22,18 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="pic">
-                  <img src="images/index/banner.jpg" alt="">
+                  <picture>
+                    <source srcset="images/index/banner_m.jpg" media="(max-width: 600px)" />
+                    <img src="images/index/banner.jpg" alt="">
+                  </picture>
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="pic">
-                  <img src="images/index/banner.jpg" alt="">
+                  <picture>
+                    <source srcset="images/index/banner_m.jpg" media="(max-width: 600px)" />
+                    <img src="images/index/banner.jpg" alt="">
+                  </picture>
                 </div>
               </div>
             </div>
@@ -36,6 +42,16 @@
 
         </div>
 
+        <div class="downloadBox">
+          <div class="outerBox">
+            <div class="container">
+              <div class="content">
+                ESG永續報告書
+                <a href="#">下載</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <section class="worksBox">
           <div class="outerBox">
