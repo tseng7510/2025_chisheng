@@ -47,7 +47,7 @@
             <div class="container">
               <div class="content">
                 ESG永續報告書
-                <a href="#">下載</a>
+                <a href="#">DOWNLOAD</a>
               </div>
             </div>
           </div>

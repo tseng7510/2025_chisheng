@@ -808,43 +808,48 @@ section .blockTitle span {
   margin: 40px 0 0;
 }
 .downloadBox .content {
-  padding: 15px 30px;
-  border-radius: 15px;
+  padding: 20px 30px;
   background: #ececec;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 2px;
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 767px) {
   .downloadBox .content {
-    padding: 10px 15px;
+    padding: 15px 15px;
+    flex-direction: column;
+    justify-content: center;
   }
 }
-.downloadBox .content::before {
+.downloadBox .content a::after {
   content: '';
   mask: url('../images/icon/icon_download_.svg') center no-repeat;
-  background: #f47121;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  background: #fff;
+  width: 16px;
+  height: 16px;
 }
 
 .downloadBox .content a {
-  width: 100px;
   letter-spacing: 1px;
   border-radius: 25px;
+  font-size: 13px;
+  height: 34px;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 10px 20px;
   color: #fff;
-  background: #000;
-  text-align: center;
-  line-height: 1;
+  background: #f47121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   margin: 0 0 0 auto;
-  font-size: 16px;
+  max-width: 150px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 767px) {
   .downloadBox .content a {
-    width: 80px;
+    margin: 5px auto 0;
   }
 }
