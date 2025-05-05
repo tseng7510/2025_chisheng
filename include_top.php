@@ -15,6 +15,17 @@
         <div class="topNav">
           <a href="https://www.facebook.com/profile.php?id=100063863116503" class="fb" target="_blank"></a>
         </div>
+
+        <div class="menuSearch">
+          <button class="btn" type="button"></button>
+          <div class="searchOuter">
+            <div class="searchClose"></div>
+            <div class="searchBox">
+              <input type="text" class="form-control" name="search" placeholder="Search">
+            </div>
+            <button class="searchBtn" type="submit" onclick="javascript:location.href='works_search.php'"></button>
+          </div>
+        </div>
       </div>
     </div>
 
