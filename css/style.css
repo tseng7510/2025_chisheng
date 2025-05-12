@@ -855,6 +855,11 @@ button:focus {
     border-bottom: none;
   }
 }
+@media screen and (max-width: 1000px) {
+  .siteHeader .headerBox .container {
+    padding-right: 50px;
+  }
+}
 .siteHeader .headerBox .container .contentBox {
   position: static;
   display: flex;
@@ -867,6 +872,7 @@ button:focus {
 @media screen and (max-width: 1000px) {
   .siteHeader .headerBox .container .contentBox {
     height: 50px;
+    gap: 0px;
   }
 }
 .siteHeader .logo {
@@ -1752,8 +1758,8 @@ button:focus {
 }
 
 @media screen and (max-width: 1000px) {
-  .topNav {
-    margin-right: 30px;
+  .topNav a {
+    width: 50px;
   }
 }
 .topNav .inquiry {
@@ -1897,13 +1903,13 @@ button:focus {
 }
 .menuSearch > .btn {
   display: none;
-  position: absolute;
   height: 100%;
+  position: relative;
 }
 @media screen and (max-width: 1000px) {
   .menuSearch > .btn {
+    width: 50px;
     display: flex;
-    right: 55px;
   }
 }
 .menuSearch > .btn::before {
@@ -2000,14 +2006,22 @@ button:focus {
   }
 }
 .menuSearch .searchOuter .searchBox input::-moz-placeholder {
-  color: #2d3135;
+  color: #848484;
 }
 .menuSearch .searchOuter .searchBox input::placeholder {
-  color: #2d3135;
+  color: #848484;
+}
+@media screen and (max-width: 1000px) {
+  .menuSearch .searchOuter .searchBox input::-moz-placeholder {
+    color: #8d8d8d;
+  }
+  .menuSearch .searchOuter .searchBox input::placeholder {
+    color: #8d8d8d;
+  }
 }
 .menuSearch .searchOuter .searchBtn {
   position: relative;
-  width: 40px;
+  width: 50px;
   aspect-ratio: 1;
   padding: 0;
   margin: 0;

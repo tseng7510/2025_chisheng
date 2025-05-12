@@ -196,3 +196,14 @@
   width: fit-content;
   margin: 0 auto;
 }
+.pin::before {
+  content: '';
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 5;
+  background: url('../images/icon/thumbtack.svg') center no-repeat;
+  background-size: contain;
+}

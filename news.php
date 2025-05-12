@@ -50,8 +50,23 @@
             <div class="container">
               <div class="contentBox">
                 <div class="listBox">
-
-                  <? for ($i = 0; $i < 6; $i++) { ?>
+                  <!-- class + pin -->
+                  <div class="item wow fadeInRight pin" data-wow-delay="0.2s">
+                    <a href="news_detail.php">
+                      <div class="pic"><img src="images/index/n.jpg" alt=""></div>
+                      <div class="info">
+                        <h2 class="title">為什麼你的裝修案場進度總是延誤？答案在這裡！</h2>
+                        <div class="description">消防工程_大樓室內裝修．身為室內設計師的你，是否曾經因為找不到合適的消防廠商而</div>
+                      </div>
+                      <div class="timeBox">
+                        <time>
+                          <div class="y">2024</div>
+                          <div class="d">08.02</div>
+                        </time>
+                      </div>
+                    </a>
+                  </div>
+                  <? for ($i = 0; $i < 5; $i++) { ?>
                     <div class="item wow fadeInRight" data-wow-delay="0.2s">
                       <a href="news_detail.php">
                         <div class="pic"><img src="images/index/n.jpg" alt=""></div>
