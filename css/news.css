@@ -27,6 +27,7 @@
   width: 100%;
   border: #aaaaaa 1px dashed;
   border-bottom: none;
+  position: relative;
 }
 .newsList .siteMain .contentBox .listBox .item:last-child {
   border-bottom: #aaaaaa 1px dashed;
